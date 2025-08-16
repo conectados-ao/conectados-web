@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Conectados.ao</title>
+    <meta name="description" content="Entre em contato com a equipe do Conectados.ao. Estamos prontos para ajudar seu negócio a crescer.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo-conectados.svg" alt="Conectados.ao" width="180">
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="funcionalidades.html">Funcionalidades</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+                <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a>
+            </nav>
+            
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li>Contato</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Página Contato -->
+    <section class="page-contato">
+        <div class="container">
+            <h1>Fale Conosco</h1>
+            <p class="section-subtitle">Estamos aqui para ajudar seu negócio a crescer</p>
+            
+            <div class="contato-grid">
+                <div class="contato-form">
+                    <form id="form-contato">
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="duvidas">Dúvidas sobre o produto</option>
+                                <option value="vendas">Falar com vendas</option>
+                                <option value="suporte">Suporte técnico</option>
+                                <option value="parcerias">Parcerias comerciais</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+                    </form>
+                </div>
+                
+                <div class="contato-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Endereço</h3>
+                            <p>Av. 4 de Fevereiro, 123<br>Edifício Exemplo, 5º Andar<br>Luanda, Angola</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Telefone</h3>
+                            <p><a href="tel:+244123456789">+244 123 456 789</a></p>
+                            <p><a href="tel:+244987654321">+244 987 654 321</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>E-mail</h3>
+                            <p><a href="mailto:contato@conectados.ao">contato@conectados.ao</a></p>
+                            <p><a href="mailto:suporte@conectados.ao">suporte@conectados.ao</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/244123456789" target="_blank">+244 123 456 789</a></p>
+                            <p>Atendimento: Seg-Sex, 8h-18h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Horário de Atendimento</h3>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p>Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contato-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.755412763938!2d13.234415515366524!3d-8.814040193739167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f15cdc8d2a3d%3A0x6a1e5b9a9a9a9a9a!2sLuanda%2C%20Angola!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <!-- Mesmo rodapé da index.html -->
+    </footer>
+
+    <!-- Modal Teste Grátis -->
+    <div class="modal" id="modal-teste-gratis">
+        <!-- Mesmo modal da index.html -->
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Script específico para a página de contato
+        document.addEventListener('DOMContentLoaded', function() {
+            // Máscara para telefone
+            const telefoneInput = document.getElementById('telefone');
+            
+            telefoneInput.addEventListener('input', function(e) {
+                let value = e.target.value.replace(/\D/g, '');
+                
+                if (value.length > 0) {
+                    value = '(' + value;
+                }
+                
+                if (value.length > 3) {
+                    value = value.slice(0, 3) + ') ' + value.slice(3);
+                }
+                
+                if (value.length > 10) {
+                    value = value.slice(0, 10) + '-' + value.slice(10, 14);
+                }
+                
+                e.target.value = value;
+            });
+            
+            // Validação do formulário de contato
+            const formContato = document.getElementById('form-contato');
+            
+            formContato.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+                const inputs = this.querySelectorAll('input[required], select[required], textarea[required]');
+                
+                inputs.forEach(input => {
+                    if (!input.value.trim()) {
+                        isValid = false;
+                        input.style.borderColor = 'var(--danger)';
+                        
+                        // Remove o erro após um tempo
+                        setTimeout(() => {
+                            input.style.borderColor = '';
+                        }, 3000);
+                    }
+                });
+                
+                if (isValid) {
+                    // Simulação de envio
+                    alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+                    this.reset();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
