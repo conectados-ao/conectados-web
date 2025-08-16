@@ -124,6 +124,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     };
+
+    // Fechar menu ao clicar em qualquer botão
+const headerButtons = document.querySelectorAll('.header-buttons a');
+headerButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        if (nav.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            nav.classList.remove('active');
+        }
+    });
+});
     
     window.addEventListener('scroll', animateOnScroll);
     animateOnScroll(); // Executa uma vez ao carregar a página

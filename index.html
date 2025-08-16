@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conectados.ao - ERP para PMEs em Angola</title>
-    <meta name="description" content="Sistema ERP online para pequenas e médias empresas em Angola. Gestão completa de vendas, estoque, financeiro e muito mais.">
+    <meta name="description"
+        content="Sistema ERP online para pequenas e médias empresas em Angola. Gestão completa de vendas, estoque, financeiro e muito mais.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header class="header">
         <div class="container">
             <a href="index.html" class="logo">
-              <!-- <img src="images/logo-conectados.svg" alt="Conectados.ao" width="180"> --> 
+                <!-- <img src="images/logo-conectados.svg" alt="Conectados.ao" width="180"> -->
                 <h1>Conectados<span>.AO</span></h1>
             </a>
-            
+
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="index.html" class="active">Início</a></li>
@@ -27,9 +35,14 @@
                     <li><a href="planos.html">Planos</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
-                <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a>
+                <!--  <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a> -->
+                <div class="header-buttons">
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="registro.html" class="btn btn-secondary">Registrar</a>
+                    <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a>
+                </div>
             </nav>
-            
+
             <button class="hamburger" aria-label="Menu">
                 <span></span>
                 <span></span>
@@ -43,14 +56,15 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Gestão empresarial simplificada para o seu negócio</h1>
-                <p class="subtitle">O ERP completo para pequenas e médias empresas em Angola. Controle vendas, estoque, finanças e muito mais em uma única plataforma.</p>
+                <p class="subtitle">O ERP completo para pequenas e médias empresas em Angola. Controle vendas, estoque,
+                    finanças e muito mais em uma única plataforma.</p>
                 <div class="hero-buttons">
                     <a href="#teste-gratis" class="btn btn-primary btn-large">Experimente Grátis</a>
                     <a href="#funcionalidades" class="btn btn-secondary btn-large">Conheça as Funcionalidades</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/dashboard-placeholder.png" alt="Dashboard do Conectados.ao" loading="lazy">
+                <img src="images/dashboard.png" alt="Dashboard do Conectados.ao" loading="lazy">
             </div>
         </div>
     </section>
@@ -74,7 +88,7 @@
         <div class="container">
             <h2>O que você pode fazer com o Conectados.ao</h2>
             <p class="section-subtitle">Todas as ferramentas que sua empresa precisa em um único sistema</p>
-            
+
             <div class="funcionalidades-grid">
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
@@ -83,7 +97,7 @@
                     <h3>Vendas</h3>
                     <p>Emita notas fiscais, controle comandas e gerencie todo o processo de vendas.</p>
                 </div>
-                
+
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
                         <i class="fas fa-warehouse"></i>
@@ -91,7 +105,7 @@
                     <h3>Estoque</h3>
                     <p>Controle de entrada e saída de produtos, inventários e alertas de reposição.</p>
                 </div>
-                
+
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
                         <i class="fas fa-chart-line"></i>
@@ -99,7 +113,7 @@
                     <h3>Financeiro</h3>
                     <p>Fluxo de caixa, contas a pagar e receber, conciliação bancária e relatórios.</p>
                 </div>
-                
+
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
                         <i class="fas fa-shopping-cart"></i>
@@ -107,7 +121,7 @@
                     <h3>Compras</h3>
                     <p>Gestão de fornecedores, pedidos de compra e controle de orçamentos.</p>
                 </div>
-                
+
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
                         <i class="fas fa-file-invoice-dollar"></i>
@@ -115,7 +129,7 @@
                     <h3>Fiscal</h3>
                     <p>Emissão de documentos fiscais em conformidade com a legislação angolana.</p>
                 </div>
-                
+
                 <div class="funcionalidade-card">
                     <div class="funcionalidade-icon">
                         <i class="fas fa-chart-pie"></i>
@@ -124,7 +138,7 @@
                     <p>Dados e indicadores para acompanhar o desempenho do seu negócio.</p>
                 </div>
             </div>
-            
+
             <div class="text-center">
                 <a href="funcionalidades.html" class="btn btn-outline">Ver todas as funcionalidades</a>
             </div>
@@ -135,11 +149,12 @@
     <section class="destaque">
         <div class="container">
             <div class="destaque-image">
-                <img src="images/mobile-placeholder.png" alt="Aplicativo Conectados.ao" loading="lazy">
+                <img src="images/mobile.png" alt="Aplicativo Conectados.ao" loading="lazy">
             </div>
             <div class="destaque-content">
                 <h2>Acesso em qualquer lugar, a qualquer momento</h2>
-                <p>Com o Conectados.ao, você gerencia seu negócio de forma simples e prática, seja no computador, tablet ou smartphone.</p>
+                <p>Com o Conectados.ao, você gerencia seu negócio de forma simples e prática, seja no computador, tablet
+                    ou smartphone.</p>
                 <ul class="destaque-list">
                     <li><i class="fas fa-check-circle"></i> Sistema 100% online, sem necessidade de instalação</li>
                     <li><i class="fas fa-check-circle"></i> Dados seguros na nuvem com backup diário</li>
@@ -155,7 +170,7 @@
         <div class="container">
             <h2>Planos que cabem no seu bolso</h2>
             <p class="section-subtitle">Escolha o plano ideal para o tamanho do seu negócio</p>
-            
+
             <div class="planos-grid">
                 <div class="plano-card">
                     <h3>Básico</h3>
@@ -172,7 +187,7 @@
                     </ul>
                     <a href="#teste-gratis" class="btn btn-outline">Começar agora</a>
                 </div>
-                
+
                 <div class="plano-card popular">
                     <div class="popular-badge">Mais escolhido</div>
                     <h3>Profissional</h3>
@@ -190,7 +205,7 @@
                     </ul>
                     <a href="#teste-gratis" class="btn btn-primary">Começar agora</a>
                 </div>
-                
+
                 <div class="plano-card">
                     <h3>Empresarial</h3>
                     <div class="plano-preco">
@@ -208,7 +223,7 @@
                     <a href="#teste-gratis" class="btn btn-outline">Começar agora</a>
                 </div>
             </div>
-            
+
             <div class="planos-obs">
                 <p>* Preços em Kwanzas Angolanos. Não cobramos taxa de implantação.</p>
                 <a href="planos.html" class="link">Comparar todos os planos</a>
@@ -221,7 +236,7 @@
         <div class="container">
             <h2>Segmentos atendidos</h2>
             <p class="section-subtitle">Nosso sistema é adaptável para diversos tipos de negócios</p>
-            
+
             <div class="segmentos-grid">
                 <div class="segmento-card">
                     <div class="segmento-icon">
@@ -229,35 +244,35 @@
                     </div>
                     <h3>Varejo</h3>
                 </div>
-                
+
                 <div class="segmento-card">
                     <div class="segmento-icon">
                         <i class="fas fa-utensils"></i>
                     </div>
                     <h3>Restaurantes</h3>
                 </div>
-                
+
                 <div class="segmento-card">
                     <div class="segmento-icon">
                         <i class="fas fa-truck"></i>
                     </div>
                     <h3>Distribuição</h3>
                 </div>
-                
+
                 <div class="segmento-card">
                     <div class="segmento-icon">
                         <i class="fas fa-industry"></i>
                     </div>
                     <h3>Indústria</h3>
                 </div>
-                
+
                 <div class="segmento-card">
                     <div class="segmento-icon">
                         <i class="fas fa-briefcase-medical"></i>
                     </div>
                     <h3>Saúde</h3>
                 </div>
-                
+
                 <div class="segmento-card">
                     <div class="segmento-icon">
                         <i class="fas fa-car"></i>
@@ -273,7 +288,7 @@
         <div class="container">
             <h2>Integrações</h2>
             <p class="section-subtitle">Conecte-se com as principais plataformas do mercado</p>
-            
+
             <div class="integracoes-grid">
                 <img src="images/integracao1.svg" alt="Integração 1" loading="lazy">
                 <img src="images/integracao2.svg" alt="Integração 2" loading="lazy">
@@ -316,7 +331,7 @@
                         <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                
+
                 <div class="footer-col">
                     <h3>Produto</h3>
                     <ul>
@@ -326,7 +341,7 @@
                         <li><a href="#">Novidades</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
                     <h3>Empresa</h3>
                     <ul>
@@ -336,7 +351,7 @@
                         <li><a href="#">Trabalhe conosco</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
                     <h3>Suporte</h3>
                     <ul>
@@ -346,7 +361,7 @@
                         <li><a href="#">Status do Sistema</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
                     <h3>Contato</h3>
                     <ul class="footer-contato">
@@ -356,7 +371,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2023 Conectados.ao - Todos os direitos reservados.</p>
                 <div class="footer-links">
@@ -403,4 +418,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
