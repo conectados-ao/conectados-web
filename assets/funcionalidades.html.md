@@ -19,7 +19,8 @@
     <header class="header">
         <div class="container">
             <a href="index.html" class="logo">
-                                <h1>Conectados<span>.AO</span></h1>
+               <!--  <img src="images/logo-conectados.svg" alt="Conectados.ao" width="180">-->
+                 <h1>Conectados<span>.AO</span></h1>
             </a>
             
             <nav class="nav">
@@ -29,11 +30,7 @@
                     <li><a href="planos.html">Planos</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
-                <div class="header-buttons">
-                    <a href="login.html" class="btn btn-outline">Login</a>
-                    <a href="registro.html" class="btn btn-secondary">Registrar</a>
-                    <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a>
-                </div>
+                <a href="#teste-gratis" class="btn btn-primary">Teste Grátis</a>
             </nav>
             
             <button class="hamburger" aria-label="Menu">
@@ -67,42 +64,17 @@
                         <div class="modulo-icon">
                             <i class="fas fa-cash-register"></i>
                         </div>
-                        <h2>Vendas & Faturação</h2>
+                        <h2>Vendas</h2>
                     </div>
                     <div class="modulo-content">
-                        <p>Solução completa para gestão do ciclo de vendas e emissão de documentos fiscais.</p>
+                        <p>Controle todo o processo de vendas do seu negócio, desde o orçamento até o recebimento.</p>
                         <ul class="modulo-list">
-                            <li><i class="fas fa-check"></i> Emissão de faturas e recibos</li>
-                            <li><i class="fas fa-check"></i> Notas fiscais eletrônicas</li>
-                            <li><i class="fas fa-check"></i> Gestão de clientes e históricos</li>
+                            <li><i class="fas fa-check"></i> Emissão de notas fiscais eletrônicas</li>
+                            <li><i class="fas fa-check"></i> Gestão de comandas e pedidos</li>
+                            <li><i class="fas fa-check"></i> Controle de comissões</li>
                             <li><i class="fas fa-check"></i> Cupom fiscal eletrônico (CFE)</li>
-                            <li><i class="fas fa-check"></i> Faturação série A e série B</li>
-                            <li><i class="fas fa-check"></i> Relatórios de faturação por período</li>
+                            <li><i class="fas fa-check"></i> Vendas por delivery</li>
                             <li><i class="fas fa-check"></i> Integração com máquinas de cartão</li>
-                            <li><i class="fas fa-check"></i> Devoluções e notas de crédito</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Módulo Contabilidade -->
-                <div class="modulo-card">
-                    <div class="modulo-header">
-                        <div class="modulo-icon">
-                            <i class="fas fa-calculator"></i>
-                        </div>
-                        <h2>Contabilidade Integrada</h2>
-                    </div>
-                    <div class="modulo-content">
-                        <p>Gestão contábil completa com integração automática aos outros módulos.</p>
-                        <ul class="modulo-list">
-                            <li><i class="fas fa-check"></i> Plano de contas personalizável</li>
-                            <li><i class="fas fa-check"></i> Lançamentos contábeis automáticos</li>
-                            <li><i class="fas fa-check"></i> Balanço patrimonial gerencial</li>
-                            <li><i class="fas fa-check"></i> Demonstração de resultados</li>
-                            <li><i class="fas fa-check"></i> Conciliação bancária automatizada</li>
-                            <li><i class="fas fa-check"></i> Rateio de custos e despesas</li>
-                            <li><i class="fas fa-check"></i> Centros de custo por departamento</li>
-                            <li><i class="fas fa-check"></i> Relatórios para fiscalidade</li>
                         </ul>
                     </div>
                 </div>
@@ -240,103 +212,14 @@
         </div>
     </section>
 
- <!-- Rodapé -->
+    <!-- Rodapé -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <img src="images/logo-conectados-white.svg" alt="Conectados.ao" width="160" class="footer-logo">
-                    <p>O sistema de gestão empresarial desenvolvido para impulsionar negócios em Angola.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Produto</h3>
-                    <ul>
-                        <li><a href="funcionalidades.html">Funcionalidades</a></li>
-                        <li><a href="planos.html">Planos</a></li>
-                        <li><a href="#">Tour Virtual</a></li>
-                        <li><a href="#">Novidades</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Empresa</h3>
-                    <ul>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Clientes</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Trabalhe conosco</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Suporte</h3>
-                    <ul>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="#">Central de Ajuda</a></li>
-                        <li><a href="#">Documentação</a></li>
-                        <li><a href="#">Status do Sistema</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Contato</h3>
-                    <ul class="footer-contato">
-                        <li><i class="fas fa-map-marker-alt"></i> Luanda, Angola</li>
-                        <li><i class="fas fa-phone-alt"></i> +244 943 005 599</li>
-                        <li><i class="fas fa-envelope"></i> contato@conectados.ao</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2023 Conectados.ao - Todos os direitos reservados.</p>
-                <div class="footer-links">
-                    <a href="#">Termos de Uso</a>
-                    <a href="#">Política de Privacidade</a>
-                </div>
-            </div>
-        </div>
+        <!-- Mesmo rodapé da index.html -->
     </footer>
 
     <!-- Modal Teste Grátis -->
     <div class="modal" id="modal-teste-gratis">
-        <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <h3>Experimente grátis por 15 dias</h3>
-            <p>Preencha o formulário abaixo para criar sua conta de teste.</p>
-            <form id="form-modal-teste">
-                <div class="form-group">
-                    <input type="text" placeholder="Nome completo" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="E-mail corporativo" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" placeholder="Telefone" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Nome da empresa" required>
-                </div>
-                <div class="form-group">
-                    <select required>
-                        <option value="">Selecione o segmento</option>
-                        <option value="varejo">Varejo</option>
-                        <option value="restaurante">Restaurante</option>
-                        <option value="distribuicao">Distribuição</option>
-                        <option value="industria">Indústria</option>
-                        <option value="outros">Outros</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Solicitar teste grátis</button>
-            </form>
-        </div>
+        <!-- Mesmo modal da index.html -->
     </div>
 
     <script src="js/script.js"></script>
